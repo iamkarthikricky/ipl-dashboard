@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.item-link {
+  text-decoration: none;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+.card-container {
+  background-color: #ffffff33;
+  width: 500px;
+  height: 200px;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+}
+.team-image {
+  width: 120px;
+  margin-right: 10px;
+}
+.team-name {
+  font-family: 'Bree Serif';
+  font-size: 24px;
+  color: #ffffff;
+}
+@media screen and (max-width: 767px) {
+  .card-container {
+    width: 250px;
+    height: 150px;
+  }
+  .team-image {
+    width: 90px;
+  }
+  .team-name {
+    font-size: 18px;
+  }
+}

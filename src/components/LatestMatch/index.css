@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.latest-container {
+  background-color: #000000;
+  border-radius: 10px;
+  width: 90%;
+  padding: 10px;
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.compete-logo {
+  width: 200px;
+  height: 200px;
+}
+.container-2 {
+  text-align: right;
+}
